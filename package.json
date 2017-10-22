@@ -1,0 +1,33 @@
+{
+  "name": "dat-s3-storage",
+  "version": "1.0.0",
+  "description": "A readonly S3 storage interface for dat and hyperdrive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dat",
+    "s3",
+    "aws",
+    "hyperdrive",
+    "storage",
+    "readonly"
+  ],
+  "author": "Benjamin Forster",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-e-e/dat-s3-storage.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.138.0",
+    "multi-random-access": "^2.1.1",
+    "random-access-s3": "0.0.2"
+  },
+  "devDependencies": {
+    "append-tree": "^2.3.6",
+    "hyperdrive": "^9.9.1",
+    "standard": "^10.0.3"
+  }
+}
